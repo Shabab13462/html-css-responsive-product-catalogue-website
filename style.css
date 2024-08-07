@@ -33,7 +33,7 @@ input {
     height: 40px;
 }
 
-#i {
+i {
     background-color: rgb(243, 226, 96);
     color: #fff;
     padding: 9px;
@@ -49,4 +49,84 @@ input {
 
 .cart img {
     padding-left: 10px;
+}
+
+
+.cart img :hover {
+    cursor: pointer;
+}
+
+
+/* small screen */
+
+@media(max-width="100px") {
+    nav {
+        height: 80px;
+    }
+
+    #logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    input {
+
+        width: 250px;
+        height: 30px;
+    }
+
+    i {
+        margin-left: -20px;
+        padding: 7px;
+    }
+
+    .cart {
+
+        padding: 0 20px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .cart img {
+        padding-left: 7px;
+    }
+}
+
+
+
+/* mobile screen  */
+@media(max-width="400px") {
+
+    nav {
+        height: 60px;
+    }
+
+    #logo {
+        height: 50px;
+        width: 60px;
+    }
+
+    input {
+
+        width: 170px;
+        height: 25px;
+    }
+
+    i {
+        background-color: transparent;
+        color: black;
+        margin-left: -28px;
+        padding-top: 2px;
+    }
+
+    .cart {
+
+        padding: 0 15px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .cart img {
+        padding-left: 5px;
+    }
 }
