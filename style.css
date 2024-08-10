@@ -69,7 +69,7 @@ i {
 .categories {
     background-color: aliceblue;
     color: 1px solid wheat;
-    padding: 15px;
+    padding: 30px;
 }
 
 .categories h2 {
@@ -78,6 +78,7 @@ i {
     text-align: center;
     padding-bottom: 5px;
     margin-bottom: 20px;
+
 }
 
 .categories li {
@@ -92,7 +93,9 @@ i {
 }
 
 
-
+.background-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.438)), url(./images/bg.jpg)
+}
 
 
 
@@ -195,6 +198,7 @@ i {
 }
 
 /* home */
+/* 
 .home {
     margin: 20px 0;
 
@@ -215,4 +219,4 @@ i {
 .categories li {
     padding: 2px 0;
     font-size: 1vh;
-}
+} */
